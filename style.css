@@ -5,5 +5,39 @@ body {
 
     font-size: 16px;
     font-weight: normal;
-    font-family: 'Roboto', sans-serif;           
+    font-family: 'Roboto', sans-serif; 
+    /* font: normal 16px */
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 
+    'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+
+}
+
+.ozon {
+    width: 200px;
+    border-radius: 28px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0);
+}
+
+.info p {
+    color: #86898f;
+    margin: 0;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+    /* text-transform: uppercase; */
+    /* letter-spacing: 5px; */
+    /* word-spacing: 42px; */
+}
+
+/* Box Model */
+.container {
+    max-width: 750px;
+    margin: auto;
+}
+
+.social {
+    background: green;
+    padding: 15px;
+    border: 5px solid red;
+    margin: 20px;
 }
